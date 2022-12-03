@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67466D8D293B7F24009B9750 /* RootNVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67466D8C293B7F24009B9750 /* RootNVC.swift */; };
+		67466D91293B9558009B9750 /* Image+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67466D90293B9558009B9750 /* Image+Ext.swift */; };
+		67466D93293B9578009B9750 /* CropIdentityPhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67466D92293B9578009B9750 /* CropIdentityPhotoViewModel.swift */; };
 		676F6BB0293A51DB00D2E4E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F6BAF293A51DB00D2E4E8 /* AppDelegate.swift */; };
 		676F6BB2293A51DB00D2E4E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F6BB1293A51DB00D2E4E8 /* SceneDelegate.swift */; };
-		676F6BB4293A51DB00D2E4E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F6BB3293A51DB00D2E4E8 /* ViewController.swift */; };
+		676F6BB4293A51DB00D2E4E8 /* CropIdentityPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F6BB3293A51DB00D2E4E8 /* CropIdentityPhotoVC.swift */; };
 		676F6BB7293A51DB00D2E4E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676F6BB5293A51DB00D2E4E8 /* Main.storyboard */; };
 		676F6BB9293A51DE00D2E4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676F6BB8293A51DE00D2E4E8 /* Assets.xcassets */; };
 		676F6BBC293A51DE00D2E4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676F6BBA293A51DE00D2E4E8 /* LaunchScreen.storyboard */; };
+		676F6BC6293A79D400D2E4E8 /* IdentityImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F6BC5293A79D400D2E4E8 /* IdentityImageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67466D8C293B7F24009B9750 /* RootNVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNVC.swift; sourceTree = "<group>"; };
+		67466D90293B9558009B9750 /* Image+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Ext.swift"; sourceTree = "<group>"; };
+		67466D92293B9578009B9750 /* CropIdentityPhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropIdentityPhotoViewModel.swift; sourceTree = "<group>"; };
 		676F6BAC293A51DB00D2E4E8 /* FaceDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		676F6BAF293A51DB00D2E4E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		676F6BB1293A51DB00D2E4E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		676F6BB3293A51DB00D2E4E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		676F6BB3293A51DB00D2E4E8 /* CropIdentityPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropIdentityPhotoVC.swift; sourceTree = "<group>"; };
 		676F6BB6293A51DB00D2E4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		676F6BB8293A51DE00D2E4E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		676F6BBB293A51DE00D2E4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		676F6BBD293A51DE00D2E4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676F6BC5293A79D400D2E4E8 /* IdentityImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityImageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67466D94293B95A3009B9750 /* CropIdentityPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				67466D8C293B7F24009B9750 /* RootNVC.swift */,
+				676F6BB3293A51DB00D2E4E8 /* CropIdentityPhotoVC.swift */,
+				67466D92293B9578009B9750 /* CropIdentityPhotoViewModel.swift */,
+			);
+			path = CropIdentityPhoto;
+			sourceTree = "<group>";
+		};
+		67466D95293B95AE009B9750 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				676F6BB1293A51DB00D2E4E8 /* SceneDelegate.swift */,
+				676F6BAF293A51DB00D2E4E8 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		67466D96293B95BA009B9750 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				676F6BBA293A51DE00D2E4E8 /* LaunchScreen.storyboard */,
+				676F6BB5293A51DB00D2E4E8 /* Main.storyboard */,
+				676F6BB8293A51DE00D2E4E8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		67466D97293B95D5009B9750 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				67466D90293B9558009B9750 /* Image+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		67466D98293B95E5009B9750 /* ShowPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				676F6BC5293A79D400D2E4E8 /* IdentityImageVC.swift */,
+			);
+			path = ShowPhoto;
+			sourceTree = "<group>";
+		};
 		676F6BA3293A51DB00D2E4E8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +109,12 @@
 		676F6BAE293A51DB00D2E4E8 /* FaceDetection */ = {
 			isa = PBXGroup;
 			children = (
-				676F6BAF293A51DB00D2E4E8 /* AppDelegate.swift */,
-				676F6BB1293A51DB00D2E4E8 /* SceneDelegate.swift */,
-				676F6BB3293A51DB00D2E4E8 /* ViewController.swift */,
-				676F6BB5293A51DB00D2E4E8 /* Main.storyboard */,
-				676F6BB8293A51DE00D2E4E8 /* Assets.xcassets */,
-				676F6BBA293A51DE00D2E4E8 /* LaunchScreen.storyboard */,
+				67466D95293B95AE009B9750 /* App */,
+				67466D94293B95A3009B9750 /* CropIdentityPhoto */,
+				67466D98293B95E5009B9750 /* ShowPhoto */,
+				67466D97293B95D5009B9750 /* Extensions */,
 				676F6BBD293A51DE00D2E4E8 /* Info.plist */,
+				67466D96293B95BA009B9750 /* Resources */,
 			);
 			path = FaceDetection;
 			sourceTree = "<group>";
@@ -138,9 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				676F6BB4293A51DB00D2E4E8 /* ViewController.swift in Sources */,
+				67466D93293B9578009B9750 /* CropIdentityPhotoViewModel.swift in Sources */,
+				676F6BC6293A79D400D2E4E8 /* IdentityImageVC.swift in Sources */,
+				676F6BB4293A51DB00D2E4E8 /* CropIdentityPhotoVC.swift in Sources */,
 				676F6BB0293A51DB00D2E4E8 /* AppDelegate.swift in Sources */,
 				676F6BB2293A51DB00D2E4E8 /* SceneDelegate.swift in Sources */,
+				67466D8D293B7F24009B9750 /* RootNVC.swift in Sources */,
+				67466D91293B9558009B9750 /* Image+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +346,12 @@
 				DEVELOPMENT_TEAM = KWP22258YG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FaceDetection/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Face Detection";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires a feed from the back cam, so it can track your face.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +359,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pasli.FaceDetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,11 +378,12 @@
 				DEVELOPMENT_TEAM = KWP22258YG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FaceDetection/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Face Detection";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires a feed from the back cam, so it can track your face.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +391,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pasli.FaceDetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
